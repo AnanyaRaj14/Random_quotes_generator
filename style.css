@@ -1,0 +1,23 @@
+body{
+    color: #fff;
+    background-color: #212121;
+}
+.container{
+    height: 50vh;
+    background-color: red;
+    margin: 10%;
+   
+}
+button{
+    height: 25px;
+    width: 150px;
+}
+#quotes{
+    font-size: 25px;
+    margin: 3%;
+}
+@media only screen and (max-height: 450px){
+    #quotes{
+        font-size: 20px;
+    }
+}
